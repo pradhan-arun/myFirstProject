@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/result.css">
+    <title>RESULT</title>
+</head>
+
+<style>
+
+    td{
+        color: blue;
+    }
+    th{
+        align-items: center;
+        background-color: brown;
+    }
+</style>
+<body>
+    <table id="tab" align="center">
+    </table>
+  <table align="center"><tfoot><tr><td colspan="2"><a href="index.html" onclick="resetValue()">Click here to go home page</a></td></tr></tfoot></table>
+</body>
+<script>
+    if(localStorage.getItem('name') == undefined || localStorage.getItem('name')==null){
+        let url = new URL()
+        window.location.href="https://pradhan-arun.github.io/proj/index.html";
+    }
+</script>
+<script src="Script/result_show.js"></script>
+</html>
