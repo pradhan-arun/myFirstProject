@@ -1,0 +1,14 @@
+h1{
+    color:brown
+}
+form{
+    padding: 30px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+    display: flexbox;
+}
+div{
+    margin:10px;
+}
